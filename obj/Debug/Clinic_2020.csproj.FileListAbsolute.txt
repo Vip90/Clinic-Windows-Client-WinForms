@@ -1,0 +1,15 @@
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\Clinic 2020.exe.config
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\Clinic 2020.exe
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\Clinic 2020.pdb
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\EntityFramework.dll
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\EntityFramework.xml
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic_2020.csprojAssemblyReference.cache
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic_2020.Properties.Resources.resources
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic_2020.csproj.GenerateResource.cache
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic_2020.csproj.CoreCompileInputs.cache
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic_2020.csproj.CopyComplete
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic 2020.exe
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic 2020.pdb
+C:\Users\Grzesiek\Desktop\Projekty\Przychodnia 2020\Win Forms\obj\Debug\Clinic.Form1.resources
