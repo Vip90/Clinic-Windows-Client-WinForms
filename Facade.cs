@@ -9,7 +9,6 @@ namespace Clinic
         private List<Patient> patients = new List<Patient>();
         private List<Doctor> doctors = new List<Doctor>();
         private List<Visit> visits = new List<Visit>();
-
         public List<Patient> Patients { get => patients; set => patients = value; }
         public List<Doctor> Doctors { get => doctors; set => doctors = value; }
         Database_controller Database = new Database_controller();
@@ -22,6 +21,11 @@ namespace Clinic
             visits = Database.Visits.ToList();
 
         }
+
+
+        
+        /////////PATIENT/////////
+    
         public string Add_patient(String[] patient_data)
         {
             Patient Patient = new Patient();
@@ -85,7 +89,15 @@ namespace Clinic
             Database.SaveChanges();
             return "Usunięto pacjenta";
         }
+        public List<Patient> getpatients()
+        {
+            patients = Database.Patients.ToList();
+            return patients;
 
+        }
+
+
+        /////////DOCTOR/////////
         public string remove_doctor(String[] doctor_data)
         {
             List<Doctor> ListDoctor = Find_doctor(doctor_data);
@@ -98,16 +110,7 @@ namespace Clinic
             Database.SaveChanges();
             return "Usunięto lekarza";
         }
-
-
-        public List<Patient> getpatients()
-        {
-            patients = Database.Patients.ToList();
-            return patients;
-
-        }
-
-        public List<Doctor> getdoctors()
+         public List<Doctor> getdoctors()
         {
             doctors = Database.Doctors.ToList();
             return doctors;
@@ -122,9 +125,7 @@ namespace Clinic
             foreach (Doctor doctor in doctors)
 
             {
-
                 list.Add(doctor.ToString2());
-
             }
 
             return list;
@@ -180,6 +181,8 @@ namespace Clinic
             return null;
 
         }
+
+        /////////VISIT/////////
         public String Add_visit(String[] data1, String[] data2, DateTime date)
 
         {
@@ -244,7 +247,6 @@ namespace Clinic
         {
             List<Visit> list = Find_visit(doctordata, date, patientdata);
             Visit visit = list[0];
-            //Database.Visits.Attach(visit);
             Database.Visits.Remove(visit);
             Database.SaveChanges();
             return "Usunięto wizytę";
@@ -254,18 +256,13 @@ namespace Clinic
 
         {
             Doctor doctor = Find_doctor(data)[0];
-
             return doctor.get_visit_day(date);
-
-
-
 
         }
         public List<String[]> Download_visits_of_day(String[] data, DateTime date)
 
         {
             Doctor doctor = Find_doctor(data)[0];
-
             return doctor.get_visit_day(date);
 
         }
@@ -276,15 +273,8 @@ namespace Clinic
             Doctor doctor = Find_doctor(data)[0];
 
             return doctor.get_free_visit_day(date);
-
-
-
-
         }
     }
-
-
-
 }
 
 
